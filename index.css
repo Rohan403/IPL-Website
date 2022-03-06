@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.top{
+    width: 100%;
+    height: 10vh;
+    
+    box-shadow:  0 0 5px gray;
+    
+    background-image: linear-gradient(to right ,blue,red);
+    
+   
+   
+}
+.search {
+    width: 20vw;
+    padding: 8px;
+    border: 1px solid #d9d9d9;
+    /* background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACrElEQVR42u2Xz2sTQRSAX8VSb1K8iNqKooJH2Ux6Ksn+iPQqxZMIehJB0do/IMhmQWsvHr2KSEGk0tSLIoWIYNUKij20F2/N7iaUZnYT0kYzzhMKs0HDJiTdLcwHDwKZSd63781LBiQSSW9JZdkhzfKm1Rz9mjZp/W9YdEU3vXv4HsQZ40FtNG36q5rls//Ej4tmbSS2T15Mvp3ExOPmEMQNbBtMMEyoljcFcQN7PqyAlqNfIG7gYQ0tYNIaxA1MrJPY3wImbUqBKAXSFv0tBSIVMOkvKRDtGKWN/T6FdqRAxFNoWwpEPIXqUqBT6ALU/UVgu8GW4GD3f6f9TRDYNJTDrk7YbtiqUumHwIYoUJuHERDAS0r4CvgFECgbY+cFAR7KT+g1POmCKFDNw6WggHc3fBtVb4CAoyauBgXIG+g1Xh5mRAGah6cggBd11fK/h7lOprIs0H6uRl6KAo5O7kOv4QmPiwJ4Jqqv4FiwCtXjvD2+tRmfK6kZ/ygI2HritK0rDVGgrClJ6DWMwYC/AGuCBMYcIC2V0CzvjmbRz3j3xUjn6CfeYreUJ2wQkGD75INPX1mFfsEFrrcIYCvdhC4paWQakxajpJMr0C9YFg54i7AsClRmh9/xnr0NHcInzZStk2aLwAcGMAD9pPIazvFKVDD5rdnhJeHLX5RTyRPQHpz5o66emMc9wdlPtvA8wF7Aq2BUHh1525qEo5JtR1WeOXpickO9cJIpyuD6xJmhYiZ5ytWSl3mlnuOaf+2zDaLDXmJrSgZ/MYVEugo+gSh+FkSBa4yd5Ul87DZ5XpFl/AyIEjzYjkau8WqshU2cr13HPbgX4gJOD97n465GZlyVvC9mSKloKI2iTnbwNT+gBX54H+IaXAtxJzE3ycSAFqSAFJACUkAikXD+AHj5/wx2o5osAAAAAElFTkSuQmCC) no-repeat; */
+    background-position: 98.5%;
+    background-size: 1.5em;
+  }
+  
+  .search:hover {
+    border: 1px solid #b9b9b9;
+    border-top-color: #a0a0a0;
+  }
+  
+  .search:focus {
+    outline: none;
+    border: 1px solid #4d90fe;
+  }
+  .search input{
+      background-color: #d9d9d9;
+      color: white;
+
+  }
+  
+.space{
+    font-family: 'Knewave', cursive;
+    font-weight: 600;
+    color:white;
+    font-size: 30px;
+}
+#topelement{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+header{
+    position: relative;
+}
+.team-info{
+    width: 280px;
+    height: 300px;
+    box-shadow:  0 0 5px gray;
+    margin: 13px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+  background: linear-gradient(to right, red, purple);
+  
+    
+    
+}
+
+
+.teamimg{
+    width: 200px;
+    height: 150px;
+    background:linear-gradient(to right,white,grey);
+    border-radius: 20px;
+    
+    
+}
+#Form{
+    background-image: linear-gradient(to right, rgb(69, 226, 69),yellow);
+}
+#home{
+    display: flex;
+    flex-wrap:  wrap;
+    margin-left: 210px;
+    margin-right: 110px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    
+}
+#team-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 800;
+    color: wheat;
+}
+#team-name{
+    cursor:pointer;
+}
+#myInput {
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 400px;
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid #ddd;
+  margin-bottom: 12px;
+  }
+  .tdclass{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 18px;
+    background-color: white;
+    font-family: 'Knewave', cursive;
+  }
+  .thclass{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 18px;
+    background-color: white;
+  }
+  #rcbplayers{
+      background-color: white;
+      width: 400px;
+      height: 500px;
+      box-shadow:  0 0 5px gray;
+      border-radius: 10px;
+      display: inline-block;
+      position: absolute;
+      top: 100px;
+      right: 100px;
+      position: fixed;
+      font-family: 'Knewave', cursive;
+  }
+  #rcbtable{
+      position: relative;
+      margin-left: 300px;
+      margin-top: 40px;
+      cursor: pointer;
+  }
+  #cskplayers{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    box-shadow:  0 0 5px gray;
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    position: fixed;
+    font-family: 'Knewave', cursive;
+}
+#csktable{
+    position: relative;
+    margin-left: 300px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+#miplayers{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    box-shadow:  0 0 5px gray;
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    position: fixed;
+    font-family: 'Knewave', cursive;
+    
+
+}
+#mitable{
+    position: relative;
+    margin-left: 300px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+#kkrplayers{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    box-shadow:  0 0 5px gray;
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    position: fixed;
+    font-family: 'Knewave', cursive;
+    
+
+}
+#kkrtable{
+    position: relative;
+    margin-left: 300px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+#kx11pplayers{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    box-shadow:  0 0 5px gray;
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    position: fixed;
+    font-family: 'Knewave', cursive;
+    
+
+}
+#kx11ptable{
+    position: relative;
+    margin-left: 300px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+#srhplayers{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    box-shadow:  0 0 5px gray;
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    position: fixed;
+    font-family: 'Knewave', cursive;
+    
+
+}
+#srhtable{
+    position: relative;
+    margin-left: 300px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+#dcplayers{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    box-shadow:  0 0 5px gray;
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    position: fixed;
+    font-family: 'Knewave', cursive;
+    
+
+}
+#dctable{
+    position: relative;
+    margin-left: 300px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+#rrplayers{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    box-shadow:  0 0 5px gray;
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    position: fixed;
+    font-family: 'Knewave', cursive;
+    
+
+}
+#rrtable{
+    position: relative;
+    margin-left: 300px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+#dot0{
+    background:linear-gradient(to right,yellow,blue);
+}
+#dot1{
+    background:linear-gradient(to right,red,black);
+}
+#dot2{
+    background:linear-gradient(to right,purple,gold);
+}
+#dot3{
+    background:linear-gradient(to right,red,silver);
+}
+#dot4{
+    background:linear-gradient(to right,blue,skyblue);
+}
+#dot5{
+    background:linear-gradient(to right,orange,red);
+}
+#dot6{
+    background:linear-gradient(to right,rgb(247, 71, 223),blue);
+}
+#dot7{
+    background:linear-gradient(to right,blue,white);
+}
+
+.gang{
+    margin-left: 40%;
+    margin-right: 40%;
+    color: white;
+}
+#inputName{
+    padding: 10px;
+    box-shadow: 15px 15px 15px gray;
+    border-radius: 10px;
+
+}
+#button{
+    padding: 10px;
+    color:black;
+    background-color: greenyellow;
+    border-radius: 10px;
+    border: none;
+}
+#inputName2{
+    padding: 10px;
+    box-shadow: 15px 15px 15px gray;
+    border-radius: 10px;
+    
+}
+#yourteam{
+    display: flex;
+    flex-wrap:  wrap;
+    margin-left: 210px;
+    margin-right: 110px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+#team-name-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 800;
+    color: wheat;
+}
+#button2{
+    padding: 10px;
+    color:black;
+    background-color: greenyellow;
+    border-radius: 10px;
+    border: none;
+}
+  

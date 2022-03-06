@@ -1,0 +1,83 @@
+  <!DOCTYPE html>
+<head>
+    <style>
+        body{
+            background-image: linear-gradient(
+76deg
+, rgba(193, 195, 204, 0.83) 35%, rgba(193, 195, 204, 0.28) 65%),url("https://wallpaperaccess.com/full/2302746.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+    </style>
+    <title>ipl2021</title>
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <header id="header" class="top">
+      
+
+        <div id="topelement">
+            <div id="left">
+                <img src="https://static.toiimg.com/thumb/msid-77659752,width-1200,height-900,resizemode-4/.jpg" alt="logo" width="55" height="55" id="image"/>
+            <input type="search" class="search"/>
+            <button class="search-btn" onclick="search()">🔍</button>
+            </div>
+                <a href="index.html" class="space">Home</a>
+            <a href="index.html"class="space">Fantasy</a>
+            <a href="index.html"class="space">News</a>
+       
+           
+            
+        
+        
+        </div>
+       
+    </header>
+    <div class="gang">
+      
+      
+      <form id="Form">
+        <h2>Team create</h2>
+        <p>
+            <label>You can create Your own team  Card here</label><br>
+            <label><b>Enter team name</label></b><br>
+        <input id="inputName" type="text" placeholder="Your Team Name">
+        <label><b>Enter team Logo URL</label></b><br>
+        <input id="inputName2" type="text" placeholder="Logo Url">
+        </p>
+        <button id="button" onclick="buttonclick()">Create team</button>
+        <button id="button2" onclick="button2click()">Delete Your Teams</button>
+      </form>
+    </div>
+    <div id="yourteam">
+        
+
+
+
+    </div>
+    
+    <div id="home">
+        
+    </div>
+    <script>
+        function button2click(){
+    localStorage.clear()
+    var team=document.getElementById("yourteam")
+    team.style.display="none"
+    window.location.href = "index.html";
+}
+    </script>
+    
+    <script src="index.js"></script>
+    <script src="csk.js"></script>
+    <script src="dc.js"></script>
+    <script src="kksr.js"></script>
+    <script src="kx11p.js"></script>
+    <script src="mi.js"></script>
+    <script src="rcb.js"></script>
+    <script src="rr.js"></script>
+    <script src="srh.js"></script>
+
+</body> 
